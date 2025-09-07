@@ -39,16 +39,19 @@ I am using 2 instances of Elysia for this example, and here goes `docker-stats` 
 ## CURL testing
 
 ### Initial Values
+![WhatsApp Görsel 2025-09-08 saat 00 39 03_20351692](https://github.com/user-attachments/assets/04432af8-9865-40b9-800f-1de4a1726f4a)
 
 
 ### Values after 10 POST request to `hardal-signal-app-1`
+![WhatsApp Görsel 2025-09-08 saat 00 40 59_d1d7056c](https://github.com/user-attachments/assets/d01800d2-f083-45bf-9484-f2a769f99999)
 
 
 ### Values after 30 POST request to `hardal-signal-app-1`
-
+![WhatsApp Görsel 2025-09-08 saat 00 42 39_a3aa8a0c](https://github.com/user-attachments/assets/cb514430-40aa-4e4c-9e55-74465c9177bb)
 
 ### Values after 70 POST request to `hardal-signal-app-2`
 
+![WhatsApp Görsel 2025-09-08 saat 00 43 56_6677a7c7](https://github.com/user-attachments/assets/a3602fb1-8e6b-4204-81be-19f416f680da)
 
 
 So initial MEM USAGE for `hardal-signal-app-1` was around 12.35MiB, and for `hardal-signal-app-2` it was 11.97MiB. Afther this couple of CURL requests, `hardal-signal-app-1` stabilised at 12.8 and `hardal-signal-app-1` is around 12.7
@@ -57,9 +60,15 @@ So initial MEM USAGE for `hardal-signal-app-1` was around 12.35MiB, and for `har
 ## Autocannon Testing
 
 ### Initial Values
+![WhatsApp Görsel 2025-09-08 saat 00 52 16_68677de0](https://github.com/user-attachments/assets/7351b1d2-e27d-4515-816c-a19b9efcc90d)
 
 
 ### Post-Bombing Values
+![WhatsApp Görsel 2025-09-08 saat 00 54 49_b0ee7ab2](https://github.com/user-attachments/assets/b7b8b666-d564-4350-848b-3d9110159395)
+
+
+![WhatsApp Görsel 2025-09-08 saat 00 53 57_0418ce5f](https://github.com/user-attachments/assets/8661d4e3-f531-4b8c-a819-0b5c672d061a)
+
 
 
 
